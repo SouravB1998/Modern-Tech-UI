@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ak Solution</title>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e310ad56bd.js" crossorigin="anonymous"></script>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/responsive.css">
+</head>
+
+<body>
+    <!-- Nav Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content w-max df">
+            <div class="logo-txt"><span>Ak</span> Solutions</div>
+            <div class="nav-details p-rel">
+                <label onclick="toggleMenu()" for="check" class="hamburger">
+                    <input type="checkbox" id="check" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="menu-block df" id="menu-block">
+                    <div class="menu df">
+                        <a href="#" class="nav-items active">Home</a>
+                        <a href="#" class="nav-items">About Us</a>
+                        <a href="#" class="nav-items">Services</a>
+                        <a href="#" class="nav-items">News</a>
+                        <a href="#" class="nav-items">Contact Us</a>
+                    </div>
+                    <div class="contact-details df">
+                        <a href="#" class="nav-items">
+                            <i class="fa-brands fa-skype"></i>
+                        </a>
+                        <a href="#" class="nav-items">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </a>
+                        <a href="#" class="nav-items">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- End of Nav Menu -->
+
+    <!-- Hero Section -->
+    <section class="hero p-rel" id="hero">
+        <div class="container w-max df p-rel">
+            <div class="hero-content w-rp-100">
+                <div class="title"><span color="blue">Lorem Ipsum</span> is simply dummy text</div>
+                <div class="sub-title">
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit accusamus commodi
+                        nemo dolore sit expedita nisi dolores tempore reiciendis?
+                    </p>
+                </div>
+                <a href="" class="btn hero-btn">Learn More<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-img w-rp-100">
+                <img src="./images/hero.png" alt="Hero" srcset="">
+            </div>
+        </div>
+
+
+    </section>
+    <!-- End of Hero -->
+
+    <!-- Trusted -->
+    <section class="trusted">
+        <div class="container w-max">
+            <h1 class="sect-title"><span class="blue">Our</span> Clients</h1>
+            <div class="logos df">
+                <div class="logo-item">
+                    <img src="./images/dell.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/fedex.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/ibm.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/Intel.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/pwc.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+
+                    <img src="./images/sc.png" alt="" srcset="">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- End of Trusted -->
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="container rp-col w-max df">
+            <div class="details">
+                <h1 class="sect-title"><span class="blue">Our</span> Clients</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, temporibus accusantium molestias
+                    expedita saepe labore itaque totam distinctio voluptas soluta qui neque, placeat pariatur at aut
+                    dolor in, ut ipsa!</p>
+
+                <ol class="pointers">
+                    <li> Save cost and time</li>
+                    <li> Scale up faster</li>
+                    <li> Flexible Engagement Models</li>
+                </ol>
+            </div>
+            <div class="benefits-img p-rel">
+                <img src="./images/hero-1.png" alt="" srcset="">
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-- End of Benefits -->
+    <!-- services -->
+    <section class="services">
+        <div class="container  w-max ">
+            <h1 class="sect-title"><span class="blue">Our</span> Services</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, temporibus accusantium molestias
+                expedita saepe labore itaque totam distinctio voluptas soluta qui neque, placeat pariatur at aut
+                dolor in, ut ipsa!</p>
+
+            <div class="all-serv rp-col df">
+                <div class="details">
+
+                    <ul class="services-list">
+                        <li class="srv-ls" onmouseover="selectImage(1)">
+                            <a href="#">
+                                <i class="fa-solid fa-chevron-right"></i>Custom Software Development
+                            </a>
+                        </li>
+                        <li class="srv-ls" onmouseover="selectImage(2)">
+                            <a href="#">
+                                <i class="fa-solid fa-chevron-right"></i>Mobile application development
+                            </a>
+                        </li>
+                        <li class="srv-ls" onmouseover="selectImage(3)">
+                            <a href="#">
+                                <i class="fa-solid fa-chevron-right"></i>Product Engineering
+                            </a>
+                        </li>
+                        <li class="srv-ls" onmouseover="selectImage(4)">
+                            <a href="#">
+                                <i class="fa-solid fa-chevron-right"></i>UX and UI Design
+                            </a>
+                        </li>
+                        <li class="srv-ls" onmouseover="selectImage(5)">
+                            <a href="#">
+                                <i class="fa-solid fa-chevron-right"></i>Web Application development
+                            </a>
+                        </li>
+                        <li class="srv-ls" onmouseover="selectImage(6)">
+                            <a href="#">
+                                <i class="fa-solid fa-chevron-right"></i>QA and Testing
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="services-img">
+                    <div class="s-desc p-rel">
+                        <img src="./images/s-1.jpg" alt="" class="s-img">
+                        <div class="s-content">
+                            <p class="s-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat
+                                accusamus
+                                iusto, minus provident blanditiis! Neque dignissimos dolores, et possimus numquam iusto
+                                eius
+                                veritatis ullam? Facere, nobis quaerat. Placeat, dolorum!</p>
+                            <a href="#" class="btn hero-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="s-desc p-rel">
+                        <img src="./images/s-2.jpg" alt="" class="s-img">
+                        <div class="s-content">
+                            <p class="s-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat
+                                accusamus
+                                iusto, minus provident blanditiis! Neque dignissimos dolores, et possimus numquam iusto
+                                eius
+                                veritatis ullam? Facere, nobis quaerat. Placeat, dolorum!</p>
+                            <a href="#" class="btn hero-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="s-desc p-rel">
+                        <img src="./images/s-3.jpg" alt="" class="s-img">
+                        <div class="s-content">
+                            <p class="s-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat
+                                accusamus
+                                iusto, minus provident blanditiis! Neque dignissimos dolores, et possimus numquam iusto
+                                eius
+                                veritatis ullam? Facere, nobis quaerat. Placeat, dolorum!</p>
+                            <a href="#" class="btn hero-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="s-desc p-rel">
+                        <img src="./images/s-4.jpg" alt="" class="s-img">
+                        <div class="s-content">
+                            <p class="s-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat
+                                accusamus
+                                iusto, minus provident blanditiis! Neque dignissimos dolores, et possimus numquam iusto
+                                eius
+                                veritatis ullam? Facere, nobis quaerat. Placeat, dolorum!</p>
+                            <a href="#" class="btn hero-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="s-desc p-rel">
+                        <img src="./images/s-5.jpg" alt="" class="s-img">
+                        <div class="s-content">
+                            <p class="s-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat
+                                accusamus
+                                iusto, minus provident blanditiis! Neque dignissimos dolores, et possimus numquam iusto
+                                eius
+                                veritatis ullam? Facere, nobis quaerat. Placeat, dolorum!</p>
+                            <a href="#" class="btn hero-btn">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="s-desc p-rel">
+                        <img src="./images/s-6.jpg" alt="" class="s-img">
+                        <div class="s-content">
+                            <p class="s-cont">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fugiat
+                                accusamus
+                                iusto, minus provident blanditiis! Neque dignissimos dolores, et possimus numquam iusto
+                                eius
+                                veritatis ullam? Facere, nobis quaerat. Placeat, dolorum!</p>
+                            <a href="#" class="btn hero-btn">Learn More</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+    <!-- End of services -->
+
+    <!-- succes-story -->
+
+    <section class="succes-story">
+        <div class="container rp-col w-max df">
+            <div class="text">
+                <p class="quote">"Imagination is more important than knowledge."</p>
+                <span class="q-by">Albert Einstein </span>
+            </div>
+            <div class="q-img">
+                <img src="./images/albert-einstein.png" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+    <!-- End of succes-story -->
+    <!-- Trusted -->
+    <section class="trusted">
+        <div class="container w-max">
+            <h1 class="sect-title"><span class="blue">Our</span> Partners</h1>
+            <div class="logos df">
+                <div class="logo-item">
+                    <img src="./images/p-1.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/p-2.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/p-3.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/p-4.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/p-5.png" alt="" srcset="">
+                </div>
+            </div>
+            <div class="logos df">
+                <div class="logo-item">
+                    <img src="./images/p-6.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/p-7.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/p-8.png" alt="" srcset="">
+                </div>
+                <div class="logo-item">
+                    <img src="./images/p-9.png" alt="" srcset="">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- End of Trusted -->
+    <!-- Testimonial -->
+    <section class="testi">
+        <h1 class="sect-title">What<span class="blue"> Our Clients </span>Say? </h1>
+        <div class="testimonials container w-max df">
+            <div class="testi-container p-rel">
+                <div class="quote-co p-abs"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id harum sequi
+                    explicabo alias excepturi minima nam quam, animi asperiores voluptatem eius obcaecati dolorem quos
+                    dolor dolorum ex suscipit laudantium?"</p>
+                <span class="q-by">Lorem Ipsum </span><span class="q-by">/ Comp Name </span>
+                <div class="star-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="testi-container p-rel">
+                <div class="quote-co p-abs"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id harum sequi
+                    explicabo alias excepturi minima nam quam, animi asperiores voluptatem eius obcaecati dolorem quos
+                    dolor dolorum ex suscipit laudantium?"</p>
+                <span class="q-by">Lorem Ipsum </span>
+                <span class="q-by">/ Comp Name </span>
+                <div class="star-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+            <div class="testi-container p-rel">
+                <div class="quote-co p-abs"><i class="fa-solid fa-quote-left"></i></div>
+                <p class="quote">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis id harum sequi
+                    explicabo alias excepturi minima nam quam, animi asperiores voluptatem eius obcaecati dolorem quos
+                    dolor dolorum ex suscipit laudantium?"</p>
+                <span class="q-by">Lorem Ipsum </span><span class="q-by">/ Comp Name </span>
+                <div class="star-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End of Testimonial -->
+    <!-- Get a Quote -->
+    <section class="get-a-quote">
+        <div class="container w-max">
+            <h1 class="sect-title">Get a<span class="blue"> Quote </span>? </h1>
+            <p class="gac-txt">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="tel:1213131312" class="btn hero-btn">Call Now <i class="fa-solid fa-phone-volume"></i></a>
+        </div>
+    </section>
+    <!-- End of Get a Quote -->
+    <footer class="footer" id="footer">
+        <div class="container rp-col df w-max">
+            <div class="foo-1">
+                <div class="foo-title">
+                    <h1>Key Links</h1>
+                </div>
+                <div class="links df">
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Home</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>About</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>News</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Contact Us</a>
+                </div>
+            </div>
+            <div class="foo-2">
+                <div class="foo-title">
+                    <h1>Services</h1>
+                </div>
+                <div class="links df">
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Custom Software Development</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Mobile application development</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Product Engineering</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>UX and UI Design</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Web Application development</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>QA and Testing</a>
+                </div>
+            </div>
+            <div class="foo-3">
+                <div class="foo-title">
+                    <h1>Quick Links</h1>
+                </div>
+                <div class="links df">
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>blog</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>ebooks</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>case studies</a>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>portfolio</a>
+                </div>
+            </div>
+            <div class="foo-4">
+                <div class="foo-title">
+                    <h1>Get Updates</h1>
+                </div>
+                <form action="" class="subscribe">
+                    <input type="email" placeholder="abc@email.com" name="" id="">
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="social df">
+                    <a href="#" class="social-links">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-links">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-links">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <p>© <span id="cr-year"></span> AK Solutions | All Rights Resereved</p>
+        </div>
+
+    </footer>
+
+
+
+    <script src="./src/index.js"></script>
+
+</body>
+
+</html>
